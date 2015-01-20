@@ -1,0 +1,16 @@
+
+//import compass
+@import "compass";
+
+//import Breakpoint
+@import "breakpoint";
+
+//import Singularity Grid System
+@import "singularitygs";
+
+@mixin shadow() {
+	-webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	-o-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}

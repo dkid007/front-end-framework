@@ -1,0 +1,20 @@
+{
+  "name": "front-end-framework",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dkid007/front-end-framework",
+  "authors": [
+    "dkid007 <d.zhivaun@ymail.com>"
+  ],
+  "description": "My front end web development framework",
+  "keywords": [
+    "front-end",
+    "web-development",
+    "framework"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "responsive-nav": "~1.0.34"
+  }
+}

@@ -1,0 +1,1 @@
+!function(){var s=$(".show"),i=$("#enquiries"),d=!1;i.addClass("accessibly-hidden"),s.click(function(){d?i.slideUp("slow",function(){i.addClass("accessibly-hidden").slideDown(0)}):i.slideUp(0,function(){i.removeClass("accessibly-hidden").slideDown("slow")}),d=!d})}();

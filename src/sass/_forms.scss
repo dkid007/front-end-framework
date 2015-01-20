@@ -1,0 +1,44 @@
+/*
+
+Forms
+
+*/
+
+fieldset {
+	margin: 1em 0;
+	border: none;
+	padding: 1px 1em;
+	min-wdith: 0;
+}
+
+legend {
+	border: 0;
+	padding: 0;
+	display: none;
+}
+
+label {
+	color: #999;
+}
+input[type=email],
+input[type=text],
+textarea {
+	padding: .2em;
+	margin: 1em 0 .8em;
+	height: 2em;
+	background: #bad7de;
+	border: 1px solid #999;
+	border-radius: .5em;
+	font-size: 14px;
+	line-height: 1;
+	color: #eee;
+}
+
+textarea {
+	height: auto;
+	min-height: 3em;
+	overflow: auto;
+	resize: vertical;
+	width: 100%;
+	max-width: 500px;
+}

@@ -1,0 +1,61 @@
+
+nav ul 
+	{padding: 0;
+	margin: auto 0;
+	max-width: 960px;}
+
+nav ul li
+	{list-style: none;
+	background: #2f373a;
+	border-bottom: 1px solid white;
+	text-align: center;
+	font-family: sans-serif;
+	display: block;
+	padding: 10px;}
+
+	li
+	{@include border-radius(3px)
+	}
+
+nav ul li:hover
+	{background: #1f2426;}
+
+	nav ul li a 
+	{text-decoration: none;
+	width: 100%;
+	padding: 1em 0;}
+
+	a:link
+		{color: #749096;}
+
+	a:visited
+		{color: #749096;}
+
+
+/*  Media Query  */
+
+@media screen and (min-width: 600px) {
+
+	nav 
+	{border-top: 1px sold #fff;}
+
+	nav ul li
+		{float: left;
+		width: 19%;
+		border-right: 1px solid #fff;
+		border-bottom: none;
+		display: block;}
+
+	nav ul li:nth-child(5) 
+		{border-right: none;}
+	}
+
+/*    Clearfix   */
+
+	.clearfix:after 
+	{content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;}
+

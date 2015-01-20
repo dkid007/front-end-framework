@@ -1,0 +1,22 @@
+/*
+
+Base
+
+*/
+
+body{
+	margin: 0;
+}
+ul li {
+	list-style: none;
+}
+
+#wrapper,
+nav ul,
+.clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+} 
